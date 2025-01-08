@@ -12,9 +12,7 @@ if (dolphinsAvg1 > koalasAvg1) {
   console.log(`Koalas win: ${koalasAvg1.toFixed(1)}!`);
 } else if (dolphinsAvg1 === koalasAvg1) {
   console.log(`both teams scoring ${dolphinsAvg1.toFixed(1)}!`);
-} else {
-  console.log("No team wins");
-}
+} 
 
 let dolphinsAvgBonus1 = calculateAverage(97, 112, 101);
 let koalasAvgBonus1 = calculateAverage(109, 95, 123);
